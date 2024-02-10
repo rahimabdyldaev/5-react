@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post {
+    width: 87%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+}

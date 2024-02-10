@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 87%;
+    margin: 100px auto;
+    height: 80vh;
+    overflow-y: auto;
+    background-color: #4992d3;
+}
+
+.posts {
+    width: 90%;
+    height: 20vh;
+    margin: 50px auto;
+    border: 3px ridge;
+    border-color: none;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.posts .post {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.posts button {
+    width: 100px;
+    height: 20px;
+    align-self: center;
+    color: blue;
+}
+
+.header{
+    width: 100%;
+}
+body{
+    background-color: #296ca8;
+    color: #fff; 
+}
